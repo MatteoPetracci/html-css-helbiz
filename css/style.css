@@ -7,6 +7,10 @@ body {
   /* background-color: red; */
 }
 
+.container_fluid {
+  width: 100%;
+}
+
 .container_1000 {
   max-width: 1000px;
   margin: 0 auto;
@@ -54,6 +58,16 @@ body {
 .float_right {
   float: right;
 }
+
+.margin_auto {
+  margin: 40px 0;
+  padding-left: 40px;
+}
+
+.font_16 {
+  font-size: 16px;
+}
+
 header {
   background-color: white;
 }
@@ -134,6 +148,7 @@ header {
   .jumbo_text a img {
     width: 100%;
   }
+  .
 }
 
 
@@ -187,16 +202,32 @@ section.text_center {
   width: 110%;
   height: 500px;
   background-image: url(../img/HelbizBanner.jpg);
-  background-position: left;
+  background-position: -50px;
   background-repeat: no-repeat;
   margin-top: 300px;
-  background-size: contain;
+  background-size: cover;
 }
 
-img.img_iphone {
+.width_60 {
+  width: 80%;
+  font-size: 32px;
+  margin: 40px auto;
+}
+
+.font_step {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.line_80 {
+  position: relative;
+}
+
+img.img_iphone  {
+  width: 120%;
   position: absolute;
-  top: -340px;
-  width: 100%;
+  top: -325px;
+  left: -25px;
 }
 
 @media screen and (max-width: 768px) {
@@ -231,4 +262,16 @@ img.img_iphone {
   .border_left {
     border: none;
   }
+  .position_img {
+    background-position: left;
+    margin-top: 1440px;
+  }
+  .display_none {
+    display: none;
+  }
+
+  img.img_iphone {
+    left: 80%;
+  }
+
 }
