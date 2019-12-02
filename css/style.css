@@ -167,6 +167,7 @@ header {
 
 .back_grey {
   background-color: #FAFAFA;
+  width: 48%;
 }
 
 img.img_first_section {
@@ -181,4 +182,12 @@ p.margin_text_first_section {
 
 section.text_center {
   font-size: 18px;
+}
+
+.margin_left_2 {
+  margin-left: 2%;
+}
+
+.margin_right_2 {
+  margin-right: 2%;
 }
