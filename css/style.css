@@ -46,7 +46,6 @@ body {
   margin-top: 100px;
 }
 
-
 header {
   background-color: white;
 }
@@ -173,7 +172,7 @@ header {
 img.img_first_section {
   width: 50%;
   display: block;
-  margin: auto;
+  margin: 30px auto;
 }
 
 p.margin_text_first_section {
