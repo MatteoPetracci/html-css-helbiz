@@ -28,6 +28,7 @@ body {
 
 .text_center {
   text-align: center;
+  height: 500px;
 }
 
 .margin_top_30 {
@@ -46,10 +47,13 @@ body {
   margin-top: 100px;
 }
 
-.margin_left_10 {
-  margin-left: 10px;
+.position_relative {
+  position: relative;
 }
 
+.float_right {
+  float: right;
+}
 header {
   background-color: white;
 }
@@ -175,6 +179,24 @@ section.text_center {
 }
 .border_left {
   border-left: 15px solid white;
+}
+
+/* seconda sezione */
+
+.position_img {
+  width: 110%;
+  height: 500px;
+  background-image: url(../img/HelbizBanner.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+  margin-top: 300px;
+  background-size: contain;
+}
+
+img.img_iphone {
+  position: absolute;
+  top: -340px;
+  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
